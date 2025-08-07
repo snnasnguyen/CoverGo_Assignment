@@ -16,8 +16,15 @@
    git clone https://github.com/snnasnguyen/CoverGo_Assignment.git
    cd CoverGo_Assignment
    ```
+2. Cài đặt các thư viện cần thiết:
 
-2. Hướng dẫn sử dụng:
+   Đảm bảo bạn đã kích hoạt môi trường ảo (virtual environment) trước khi chạy lệnh này.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Hướng dẫn sử dụng:
 
    Chạy ứng dụng Streamlit với file app.py:
 
@@ -27,7 +34,7 @@
 
    Sau đó, mở trình duyệt và truy cập đường dẫn mà Streamlit cung cấp
 
-3. Cấu trúc thư mục:
+4. Cấu trúc thư mục:
 
    - `app.py` : File chính chạy ứng dụng Streamlit  
    - `requirements.txt` : Danh sách các thư viện phụ thuộc  
